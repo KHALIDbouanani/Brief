@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1F2937;
+  background-color: #F7F8FA;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid #FF6B2C;
+  outline-offset: 2px;
+}
+
+.conteneur {
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 24px;
+}
+
+.en-tete {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E5E7EB;
+}
+
+.en-tete-contenu {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #0F1B2D;
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+}
+
+.menu .lien-actif {
+  color: #FF6B2C;
+  font-weight: 600;
+  border-bottom-color: #FF6B2C;
+}
+
+.menu a {
+  font-weight: 500;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+}
+
+.section {
+  padding: 80px 0;
+}
+
+.contact-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.contact-formulaire {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0);
+}
+
+.icone img {
+  width: 48px;
+  height: 48px;
+  color: #FF6B2C;
+}
+
+.pied-de-page {
+  padding: 48px 0 32px;
+  background-color: #0F1B2D;
+  color: #FFFFFF;
+}
+
+.pied-haut {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.logo-clair {
+  color: #FFFFFF;
+}
+
+.slogan {
+  margin-top: 8px;
+  font-size: 14px;
+  font-style: italic;
+  color: #CBD5E1;
+}
+
+.pied-bas {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  font-size: 13px;
+  color: #94A3B8;
+}
