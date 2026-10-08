@@ -30,24 +30,58 @@
   </header>
   <main>
     <section class="section">
+      <h2>Contactez-nous</h2>
+      <p>Pour toute question ou demande d'information, n'hésitez pas à nous contacter via le formulaire ci-dessous ou par téléphone.</p>
       <div class="conteneur contact-contenu">
-        <h2>Contactez-nous</h2>
-        <p>Pour toute question ou demande d'information, n'hésitez pas à nous contacter via le formulaire ci-dessous ou par téléphone.</p>
-        <form class="formulaire-contact">
-          <div>
-          <label for="nom">Nom :</label>
-          <input type="text" id="nom" name="Nom" >
-          </div>
-          <div>
-          <label for="email">Email :</label>
-          <input type="email" id="email" name="Email" >
-          </div>
-          <div>
-          <label for="message">Message :</label>
-          <textarea id="message" name="Message" ></textarea>
-          </div>
-          <button type="submit">Envoyer</button>
+        <form class="contact-formulaire">
+          <table>
+            <tr>
+              <div class="form-group">
+              <td><label for="nom" >Nom :</label></td>
+              <td ><input type="text" id="nom" name="Nom" ></td>
+              </div>
+            </tr>
+            <tr>
+              <div class="form-group">
+              <td><label for="prénom">Prénom :</label></td>
+              <td><input type="text" id="prénom" name="Prénom" ></td>
+              </div>
+            </tr>
+            <tr>
+              <div class="form-group">
+              <td><label for="email">Email :</label></td>
+              <td><input type="email" id="email" name="Email" ></td>
+              </div>
+            </tr>
+            <tr>
+              <div class="form-group">
+              <td><label for="message">Message :</label></td>
+              <td><textarea id="message" name="Message" ></textarea></td>
+              </div>
+            </tr>
+            <tr>
+              <td colspan="2" style="text-align: center;">
+                <button class="bouton-envoyer" type="submit">Envoyer</button>
+              </td>
+            </tr>
+          </table>
         </form>
+        <div class="About-us">
+          <h3>Nos Informations</h3>
+          <ul>
+            <li>Adresse : 12 rue des Palmiers, 20000 Casablanca</li>
+            <li>Téléphone : +212 5 00 00 00 00</li>
+            <li>Email : contact@elan-fitness.ma</li>
+          </ul>
+          <p>Suivez-nous :
+            <div class="icone img">
+              <a href="#" aria-label="Facebook"><img class="icone img" src="img/facebook-icon.png" alt="Facebook"></a>
+              <a href="#" aria-label="Instagram"><img class="icone img" src="img/instagram-icon.png" alt="Instagram"></a>
+              <a href="#" aria-label="Twitter"><img class="icone img" src="img/X-icon.png" alt="Twitter"></a>
+            </div>
+          </p>
+        </div>
+        
       </div>
     </section>
 </body>
@@ -72,18 +106,7 @@
       </div>
 
       <div class="pied-bas">
-        <ul>
-          <li>Adresse : 12 rue des Palmiers, 20000 Casablanca</li>
-          <li>Téléphone : +212 5 00 00 00 00</li>
-          <li>Email : contact@elan-fitness.ma</li>
-        </ul>
-        <p>Suivez-nous :
-          <div class="icone img">
-          <a href="#" aria-label="Facebook"><img class="icone img" src="img/facebook-icon.png" alt="Facebook"></a>
-          <a href="#" aria-label="Instagram"><img class="icone img" src="img/instagram-icon.png" alt="Instagram"></a>
-          <a href="#" aria-label="Twitter"><img class="icone img" src="img/X-icon.png" alt="Twitter"></a>
-          </div>
-        </p>
+        <p>Adresse : 12 rue des Palmiers, 20000 Casablanca</p>
         <p>&copy; 2026 Élan Fitness — Projet pédagogique fictif</p>
       </div>
 </footer>
