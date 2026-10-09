@@ -25,16 +25,10 @@ ul {
   list-style: none;
 }
 
-a:focus-visible,
-button:focus-visible {
-  outline: 3px solid #FF6B2C;
-  outline-offset: 2px;
-}
-
 .conteneur {
   width: 100%;
   max-width: 1200px;
-  margin: 50px auto;
+  margin: 0 auto;
   padding: 0 24px;
 }
 
@@ -83,32 +77,21 @@ button:focus-visible {
   padding: 80px 0;
 }
 .contact-contenu {
-  width: 60%;
-
-  box-shadow:  0 0px 50px GOLDENROD;
-  border-style: solid;
-  border-color: #FF6B2C;
+  width: 80%;
+  box-shadow:  0 0px 50px rgb(224, 135, 51);
+  border-style: none;
   border-width: 2px;
-  padding: 40px;
   border-radius: 8px;
   margin: auto;
-  margin-top:10px ;
+  margin-top:36px ;
   display: flex;
-  /* flex-basis: 20px; */
-  gap:10px;
 }
 
-.contact-contact {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-}
 .contact-formulaire {
   max-width: 600px;
   border-style: none;
-  border-color: #FF6B2C;
-  border-width: 1px;
+  border-radius: 8px;
+  background-color: rgb(210, 81, 1);
   padding: 4px;
   flex:1 1 0;
 }
@@ -152,6 +135,11 @@ button:focus-visible {
   color: #94A3B8;
 }
 
+.form-group label {
+  color: #FFFFFF;
+
+} 
+
 .form-group {
   margin-bottom: 20px;
 } 
@@ -162,7 +150,6 @@ input,textarea {
   border: 1px solid #cca161;
   border-radius: 4px;
   font-size: 16px;
-  /* margin-left: 70px; */
 }
 
 .bouton-envoyer {
@@ -179,7 +166,25 @@ input,textarea {
 }
 
 .About-us {
+  background-color: #ffffff;
+  border-radius: 8px;
   position: relative;
   padding: 20px;
-  flex:1 1 0;
+  flex:1 0 0;
+}
+
+.contact-nous{
+  border-style: solid;
+  border-color: #0a175b;
+  border-radius: 8px;
+  border-width: 1px;
+  background-color: #FF6B2C;
+  margin: auto;
+  margin-right: 100px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.contact-nous p ,.contact-nous h2{
+  color: #000000;
 }
