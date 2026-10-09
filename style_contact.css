@@ -91,7 +91,7 @@ ul {
   max-width: 600px;
   border-style: none;
   border-radius: 8px;
-  background-color: rgb(210, 81, 1);
+  background-color: #FF6B2C;
   padding: 4px;
   flex:1 1 0;
 }
@@ -153,7 +153,7 @@ input,textarea {
 }
 
 .bouton-envoyer {
-  background-color: #FF6B2C;
+  background-color: #ad3400;
   color: #FFFFFF;
   padding: 10px 20px;
   border: none;
@@ -174,8 +174,7 @@ input,textarea {
 }
 
 .contact-nous{
-  border-style: solid;
-  border-color: #0a175b;
+  border-style: filled;
   border-radius: 8px;
   border-width: 1px;
   background-color: #FF6B2C;
@@ -187,4 +186,26 @@ input,textarea {
 
 .contact-nous p ,.contact-nous h2{
   color: #000000;
+}
+
+@media (max-width: 992px) {
+  .pied-haut,
+  .pied-bas {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+  
+.en-tete-contenu {
+  height: auto ;
+  padding: 14px 20px;
+  flex-direction: column;
+  gap: 12px;
+}
+.menu {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 16xp;
+}
 }

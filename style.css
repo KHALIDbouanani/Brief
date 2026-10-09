@@ -310,7 +310,7 @@ button:focus-visible {
 }
 
 .apropos-texte {
-  flex: 7;
+  flex: 5 1 0;
 }
 
 .apropos-texte h2 {
@@ -347,7 +347,7 @@ button:focus-visible {
 }
 
 .apropos-image {
-  flex: 5;
+  flex: 5 1 0;
   min-width: 0;
   height: 360px;
   object-fit: cover;
@@ -544,4 +544,44 @@ button:focus-visible {
   margin-top: 24px;
   font-size: 13px;
   color: #94A3B8;
+}
+
+@media (max-width: 992px) {
+  .hero-contenu,
+  .apropos-contenu,
+  .cartes,
+  .valeurs {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .chiffres {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .chiffre + .chiffre {
+    border-left: none;
+    border-top: 1px solid #E5E7EB;
+    padding-top: 16px;
+  }
+
+  .pied-haut,
+  .pied-bas {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+.en-tete-contenu {
+  height: auto ;
+  padding: 14px 20px;
+  flex-direction: column;
+  gap: 12px;
+}
+.menu {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px 16xp;
+}
 }
